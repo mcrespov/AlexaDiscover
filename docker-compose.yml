@@ -1,0 +1,8 @@
+services:
+  alexa-matter:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./config.json:/app/config.json
+    ports:
+      - "3001:3001"

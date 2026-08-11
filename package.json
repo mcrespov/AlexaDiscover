@@ -1,0 +1,15 @@
+{
+  "name": "alexa-matter-rooms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Asignacion masiva de salas/grupos en Alexa para dispositivos Matter puenteados desde Home Assistant",
+  "type": "commonjs",
+  "scripts": {
+    "login": "node scripts/login.js",
+    "discover": "node scripts/discover.js",
+    "apply": "node scripts/apply.js"
+  },
+  "dependencies": {
+    "alexa-remote2": "^8.1.0"
+  }
+}
