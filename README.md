@@ -130,7 +130,7 @@ docker compose run --rm alexa-matter node scripts/apply.js            # dry-run:
 docker compose run --rm alexa-matter node scripts/apply.js --apply    # aplica de verdad
 ```
 
-## Repetirlo cada 1-2 meses / tras borrar y re-vincular el hub Matter
+## Repetir proceso o tras borrar y re-vincular el hub Matter
 
 - Si la sesión sigue viva, basta con `npm run discover` → revisar
   `mapping.template.csv` (los dispositivos ya conocidos vienen con `targetRoom`
